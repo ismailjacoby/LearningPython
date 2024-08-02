@@ -6,7 +6,8 @@
 # Variables & Functions = snake_case
 # Constans = UPPERCASE
 
-# PRINT & INPUT --------------------------------------------------------------
+# --------------------------------------------------------------------------------------------
+# Print & Input
 
 # Printing a message to the console 
 print("Hello World")
@@ -23,21 +24,21 @@ input("Enter your Name")
 # Will ask for Input then print out Hello + User Input
 print("Hello " + input("What is your name?\n"))
 
-# VARIABLES ------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------
 
-# Make Code readable, use 
+# Variables
+a = 1
+pet_name = "Pumba"
 
 # Storing user input in a variable
 name = input("What's your name?\n")
 
-# F-String ------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------
+
+# F-String
 
 # Using an f-string for easier and more readable string formatting
 a = 19
 b = 20
 print(f"Bob is {a} and Sarah is {b} years old.")
 
-# USEFUL METHODS -------------------------------------------------------------
-
-# Calculate the length of a string
-len("John")

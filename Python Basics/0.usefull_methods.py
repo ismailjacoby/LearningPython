@@ -1,13 +1,22 @@
-# Useful Methods:
+
 # --------------------------------------------------------------------------------------------
+
+# Useful Methods:
+name = "John"
 
 # Calculate the Length of a String
 # Returns the number of characters in the string
-string_length = len("John")  # Result: 4
+string_length = len(name)  # Result: 4
+
+# Convert the name to lowercase
+name_lower = name.lower()  # Result: "john"
+
+# Convert the name to uppercase
+name_upper = name.upper()  # Result: "JOHN"
 
 # Check the Type of Given Input
 # Returns the type of the input
-input_type = type("Word")  # Result: <class 'str'>
+input_type = type(name)  # Result: <class 'str'>
 
 # Rounding Floats
 # Rounds a float to the nearest whole number

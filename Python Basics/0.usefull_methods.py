@@ -34,3 +34,13 @@ integer_conversion = int("123")  # Result: 123
 
 # Convert a string to a float
 float_conversion = float("123.5")  # Result: 123.5
+
+#List Methods
+
+states_in_the_us = ["California", "Florida", "New York"]
+
+# Adding a new state to the list
+states_in_the_us.append("Texas")
+
+# Removing a state from the list
+states_in_the_us.remove("Florida")

@@ -24,6 +24,24 @@ for number in range(0, 100, 5):
 
 # --------------------------------------------------------------------------------------------
 
+# While Loop
+
+# Define the maximum number of iterations
+max = 5
+
+# Initialize the current count
+current = 0
+
+# Continue looping while the current count is less than the maximum
+while current < max:
+    print("Hello")
+    # Increment the current count
+    current += 1
+
+# The loop will end when current_count is equal to max_iterations
+
+# --------------------------------------------------------------------------------------------
+
 # Example
 
 # List of student scores
